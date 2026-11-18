@@ -1,7 +1,7 @@
 # BN-Affective-Module-DBM
 Data and programs for the article ‘Bayesian Network Approach to Building an Affective Module for a Driver Behavioural Model’.
 
-# data_MW.Rdata
+## data_MW.Rdata
 The `data_MW.Rdata` dataset contains the following variables:
 - code: Participant identifier.
 - phase: Assessment phase (0 = baseline, 1 = after the cognitive block).
@@ -16,11 +16,11 @@ The `data_MW.Rdata` dataset contains the following variables:
 - mental_load: Binary indicator of mental workload (1 = participant entered the mental state; 0 = otherwise).
 - active_fatigue: Binary indicator of active fatigue (1 = participant entered the mental state; 0 = otherwise).
 
-### Model.R
+## Model.R
 
 The `model.R` script contains the R code required to reproduce the results presented in the accompanying article.
 
-**Requirements:**
+## Requirements:
 - R version 4.4.1
 - The following R packages:
   - `bnlearn`
